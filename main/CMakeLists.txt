@@ -138,6 +138,10 @@ elseif(CONFIG_BOARD_TYPE_DOIT_S3_AIBOX)
     set(BOARD_TYPE "doit-s3-aibox")
 elseif(CONFIG_BOARD_TYPE_ESP32_CGC)
     set(BOARD_TYPE "esp32-cgc")
+elseif(CONFIG_BOARD_TYPE_MUCIT_C3_0_96OLED_WIFI)
+    set(BOARD_TYPE "mucit-c3-0.96oled-wifi")
+elseif(CONFIG_BOARD_TYPE_EMO_DOT_C3_1_28)
+    set(BOARD_TYPE "emo-dot-c3-1.28")
 endif()
 file(GLOB BOARD_SOURCES
     ${CMAKE_CURRENT_SOURCE_DIR}/boards/${BOARD_TYPE}/*.cc

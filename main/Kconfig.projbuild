@@ -160,6 +160,10 @@ choice BOARD_TYPE
         bool "SenseCAP Watcher"
     config BOARD_TYPE_DOIT_S3_AIBOX
         bool "四博智联AI陪伴盒子"
+    config BOARD_TYPE_MUCIT_C3_0_96OLED_WIFI
+        bool "码立创 C3 V2"
+    config BOARD_TYPE_EMO_DOT_C3_1_28
+        bool "EMO Dot 小豆机器人 C3 1.28"
 endchoice
 
 choice DISPLAY_OLED_TYPE
